@@ -12,14 +12,12 @@ Typical use:
 Waste heat recovery studies, ORC optimization, process integration research.
 
 ## Project layout
+```text
 aspen_python_integrator/
 ├─ main.py
 ├─ requirements.txt
-├─ environment.yml
 ├─ README.md
 ├─ .gitignore
-├─ LICENSE
-├─ CITATION.cff
 └─ aspen_models/
     └─ ORC/
         ├─ ORC_paths.yaml
@@ -27,7 +25,7 @@ aspen_python_integrator/
     └─ power/
         ├─ power_paths.yaml
         └─ power.apw
-
+```
 ## ⚙️ Requirements
 ### Software
 - Windows OS
@@ -44,12 +42,14 @@ Recommended:
 ## 🚀 Installation
 
 ### Option 1 — Conda (Recommended)
+```bash
 conda env create -f environment.yml
 conda activate aspen-python
-
+```
 ### Option 2 — pip
+```bash
 pip install -r requirements.txt
-
+```
 ## ▶️ Running the Simulation
 Edit options at the top of main.py:
 MODE = "power_to_orc"
@@ -64,14 +64,17 @@ power_to_orc	Run power plant → send flue gas to ORC
 ## 📄 Aspen Path Configuration
 
 All Aspen variables are defined in YAML:
-Power model:
-aspen_models/power/power_paths.yaml
-ORC model:
-aspen_models/ORC/ORC_paths.yaml
+
+**Power model:**  
+`aspen_models/power/power_paths.yaml`  
+
+**ORC model:**  
+`aspen_models/ORC/ORC_paths.yaml`
 
 Example:
-fgastemp: '\Data\Streams\FLUEGAS\Input\TEMP\MIXED'
-
+`
+fgastemp: "\\Data\\Streams\\FLUEGAS\\Input\\TEMP\\MIXED"
+`
 
 ## 🔄 Power → ORC Integration Logic
 
@@ -87,6 +90,8 @@ This enables:
     - Waste heat recovery studies
     - Combined cycle analysis
     - Sensitivity studies
+    
+---
 
-# 👤 Author
+#### 👤 Author
 Prathana Nimmanterdwong

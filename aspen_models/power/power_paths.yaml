@@ -1,0 +1,14 @@
+input_paths:
+  fuelfeed: "\\Data\\Streams\\NATGAS\\Input\\TOTFLOW\\MIXED" # Fuel mass flow rate
+  airfeed: "\\Data\\Streams\\AIR\\Input\\TOTFLOW\\MIXED" # Air mass flow rate
+
+output_paths:
+  fgasmsflow: "\\Data\\Streams\\GAS-3\\Output\\MASSFLMX\\MIXED" # Flue Gas mass flow rate
+  fgastemp: "\\Data\\Streams\\GAS-3\\Output\\TEMP_OUT\\MIXED" # Flue Gas temperature
+  fgasco2: "\\Data\\Streams\\GAS-3\\Output\\MOLEFRAC\\MIXED\\CO2" # Flue Gas CO2 mole fraction
+  fgasn2: "\\Data\\Streams\\GAS-3\\Output\\MOLEFRAC\\MIXED\\N2" # Flue Gas N2 mole fraction
+  fgasco: "\\Data\\Streams\\GAS-3\\Output\\MOLEFRAC\\MIXED\\CO" # Flue Gas CO mole fraction
+  fgaswater: "\\Data\\Streams\\GAS-3\\Output\\MOLEFRAC\\MIXED\\WATER" # Flue Gas H2O mole fraction
+  work: "\\Data\\Blocks\\GASTURB\\Output\\WNET" # Net work output of the gas turbine
+  steammsflow: "\\Data\\Streams\\STEAM-1\\Output\\MASSFLMX\\MIXED" # Steam mass flow rate
+

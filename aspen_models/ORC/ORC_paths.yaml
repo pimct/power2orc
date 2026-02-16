@@ -1,0 +1,14 @@
+input_paths:
+  fgastemp: "\\Data\\Streams\\FLUEGAS\\Input\\TEMP\\MIXED"  # Flue Gas temperature
+  fgaspres: "\\Data\\Streams\\FLUEGAS\\Input\\PRES\\MIXED"  # Flue Gas pressure
+  fgasmsflow: "\\Data\\Streams\\FLUEGAS\\Input\\TOTFLOW\\MIXED" # Flue Gas mass flow rate
+  fgasco2: "\\Data\\Streams\\FLUEGAS\\Input\\FLOW\\MIXED\\CO2" # Flue Gas CO2 mole fraction
+  fgasn2: "\\Data\\Streams\\FLUEGAS\\Input\\FLOW\\MIXED\\N2" # Flue Gas N2 mole fraction
+  fgasco: "\\Data\\Streams\\FLUEGAS\\Input\\FLOW\\MIXED\\CO" # Flue Gas CO mole fraction
+  fgaswater: "\\Data\\Streams\\FLUEGAS\\Input\\FLOW\\MIXED\\WATER" # Flue Gas H2O mole fraction
+  fgaso2: "\\Data\\Streams\\FLUEGAS\\Input\\FLOW\\MIXED\\O2" # Flue Gas O2 mole fraction
+
+
+output_paths:
+  qevap: "\\Data\\Blocks\\EVAP\\Output\\HX_DUTY"
+  work: "\\Data\\Blocks\\TURBINE\\Output\\WNET"

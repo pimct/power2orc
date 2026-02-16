@@ -1,0 +1,41 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Virtual envs ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Logs / outputs ---
+*.log
+*.tmp
+outputs/
+results/
+*.csv
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs ---
+.vscode/
+.idea/
+
+# --- Aspen / simulation files (often proprietary/large) ---
+*.apw
+*.bkp
+*.inp
+*.rep
+*.his
+*.bak
+*.temp
+*.~*

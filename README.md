@@ -84,9 +84,9 @@ The script:
 3. Passes these to ORC simulation automatically
 
 This enables:
-*     Waste heat recovery studies
-*     Combined cycle analysis
-*     Sensitivity studies
+    - Waste heat recovery studies
+    - Combined cycle analysis
+    - Sensitivity studies
 
 # 👤 Author
 Prathana Nimmanterdwong
